@@ -1,0 +1,21 @@
+$default-font-size: 16px;
+
+@mixin default-text {
+  text-align: left;
+  color: $black-950;
+  font-size: $default-font-size;
+  font-family: sans-serif;
+  margin: $default-margin 0;
+  padding: 0;
+  font-weight: 400;
+  line-height: $default-line-height;
+}
+
+label {
+  @include default-text;
+  font-weight: 600;
+}
+
+p {
+  @include default-text;
+}

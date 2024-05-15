@@ -1,0 +1,24 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: $default-gap;
+
+  &.justify-between {
+    justify-content: space-between;
+  }
+
+  &.wrap {
+    flex-wrap: wrap;
+  }
+}
+
+.mb-2 {
+  margin-bottom: $default-margin*2;
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .flex.mobile-column {
+    flex-direction: column;
+  }
+}

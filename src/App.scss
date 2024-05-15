@@ -1,0 +1,27 @@
+@import './assets/stylesheet/colors';
+@import './assets/stylesheet/layout_variables';
+@import 'assets/stylesheet/typography';
+@import 'assets/stylesheet/layouts';
+@import 'assets/stylesheet/buttons';
+@import 'assets/stylesheet/inputs';
+@import './assets/stylesheet/top_nav';
+
+
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: $default-padding;
+  text-align: center;
+  width: 80vw;;
+}
+
+@media (max-width: $tablet-breakpoint) {
+  #root {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: $mobile-breakpoint) {
+
+}

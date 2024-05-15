@@ -1,0 +1,16 @@
+input {
+  @include default-text;
+  border: 1px solid $blue-500;
+  border-radius: $default-border-radius;
+  padding: $default-padding;
+  margin: 0;
+  width: 300px;
+
+  &:focus {
+    border: 1px solid $blue-600;
+  }
+}
+
+@media (max-width: $mobile-breakpoint) {
+
+}

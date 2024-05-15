@@ -1,0 +1,18 @@
+.primary-button {
+  @include default-text;
+  padding: calc($default-padding / 2) $default-padding;
+  cursor: pointer;
+  border: 1px solid $blue-500;
+  border-radius: $default-border-radius;
+  background: $blue-100;
+  margin: 0;
+
+  img {
+    width: 32px;
+  }
+
+  &:hover {
+    background: $blue-200;
+    border-color: $blue-600;
+  }
+}
